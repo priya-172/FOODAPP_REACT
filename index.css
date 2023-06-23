@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.nav_link{
+    @apply text-4xl font-bold text-[#181b21] mx-[0.8rem] py-[0.4rem] rounded-[0.8rem] bg-transparent hover:bg-black hover:bg-opacity-10 transition-all duration-300;
+}
+.description{
+    @apply text-2xl text-white bg-[#71aff1] font-medium uppercase my-2 py-[0.4rem] px-[2.4rem] bg-opacity-80 border-spacing-1 shadow-slate-100;
+}
+.btn{
+    @apply  text-white bg-[#041c4c] font-semibold uppercase my-2 py-[0.4rem] px-[0.5rem] rounded-lg w-[5rem] h-10 bg-opacity-80;
+  }
+  .inventory{
+    @apply text-[#373a40] bg-transparent bg-opacity-60 lg:ml-8;
+}
+.nav_header{
+    @apply text-xl font-semibold text-[#181b21] mx-[0.8rem] py-[0.4rem] rounded-[0.8rem] bg-transparent hover:bg-black hover:bg-opacity-10 transition-all duration-300;
+}
+.tag_line{
+    @apply text-[#4c4d51] text-xl underline cursor-pointer;
+}
